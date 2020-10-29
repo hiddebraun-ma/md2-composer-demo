@@ -1,4 +1,7 @@
 <?php
+// Bestand met functions inladen, deze regel laten staan aub
+require './includes/functions.php';
+
 // Laad de composer autoloader in
 
 // Lees de documentatie van de bacon/bacon-qr-code package

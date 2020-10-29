@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "bacon/bacon-qr-code": "2.0.2",
-        "khanamiryan/qrcode-detector-decoder": "1.0.3"
+        "codeitnowin/barcode": "3.0.2",
+        "khanamiryan/qrcode-detector-decoder": "1.0.2"
     }
 }

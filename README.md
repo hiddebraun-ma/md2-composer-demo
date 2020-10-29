@@ -15,8 +15,11 @@
 
 ## Opdracht 
 
-Er zijn twee PHP bestanden. In het ene PHP bestand: `create_qrcode.php` maak je met de geïnstalleerde packages een QR-Code. Deze sla je op als SVG bestand.
-Als dat is gelukt ga je met `read_qrcode.php` de QR-Code lezen met code en de gedecodeerde boodschap op het scherm zetten.
+- Er zijn twee PHP bestanden.  
+- In het PHP bestand: `create_qrcode.php` maak je een QR Code (je gebruik hiervoor het geïnstalleerde package: `codeitnowin/barcode`) 
+- De QR Code sla je op als `qrcode.png`
+- Als dat is gelukt ga je in `read_qrcode.php` de QR-Code decoderen (met de package: `khanamiryan/qrcode-detector-decoder`)
+- De tekst uit de (gedecodeerde) QR Code zet je op het scherm.
 
 **Het gaat hierbij om:**
 
@@ -31,16 +34,28 @@ Als dat is gelukt ga je met `read_qrcode.php` de QR-Code lezen met code en de ge
 
 Nu ben je klaar om de opdracht te maken:
 
-* Open `create_qrcode.php` en lees de comments en doe de opdrachten
-* Als `create_qrcode.php` werkend hebt en de QR-Code hebt gemaakt, ga je verder met `read_qrcode.php`
+* Open `create_qrcode.php` en lees de comments en doe de opdrachten.
+* Als `create_qrcode.php` werkend hebt en de QR-Code hebt gemaakt, ga je verder met `read_qrcode.php`.
 
 *Veel succes!*
 
 ---
 
+### Links naar de gebruikte packages en documentatie:
+
+Genereren QR Codes: 
+- [CodeItNow Barcode & QrCode Generator](https://github.com/codeitnowin/barcode-generator)  
+Composer package: `codeitnowin/barcode`
+
+Lezen / decoderen QR Codes:  
+- [QR code decoder / reader for PHP](https://github.com/khanamiryan/php-qrcode-detector-decoder/)  
+Composer package: `khanamiryan/qrcode-detector-decoder`
+
+---
+
 Voorbeeld QR Code:
 
-![Voorbeeld](qrcode.svg)
+![Voorbeeld](voorbeeld_qrcode.png)
 
 
  
