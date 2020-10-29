@@ -1,0 +1,15 @@
+{
+    "name": "hidde/composer-demo2",
+    "description": "Composer demo met een JSON file",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Hidde Braun",
+            "email": "h.braun@ma-web.nl"
+        }
+    ],
+    "require": {
+        "bacon/bacon-qr-code": "2.0.2",
+        "khanamiryan/qrcode-detector-decoder": "1.0.3"
+    }
+}
