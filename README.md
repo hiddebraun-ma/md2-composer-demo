@@ -1,17 +1,22 @@
 # Composer playground
 
-- Je krijgt een bestand project met een `composer.json` file.
-- Hiervoor ga je eerst de dependencies installeren met composer.
-- Daarna laadt je de `autoload.php` (de autoloader) in uit de `vendor` map en ga je de ingeladen packages in je code gebruiken.
+- Je krijgt een simpel projectje met een `composer.json` file.
+- Je gebruikt `composer` om deze dependencies te installeren (zoals je net hebt geleerd)
+- Daarna gebruik je de autoloader van composer (`vendor/autoload.php`) in de PHP scripts.
+
+*Lees onderstaande instructies en ga aan de slag.*  
+*Probeer eerst zelf voorbeeld code uit de docuemntatie van de packages.*  
+*We gaan een werkende versie maken aan einde van de les.*
 
 ---
 
 ## Setup
 1. Fork deze repository
-2. Clone JOUW repository naar je computer
-3. Open de map in je favoriete editor (probeer PHPStorm eens, dat geeft je veel hulp!)
-4. Ga in een terminal venster naar de nieuwe map
-5. Installeer de dependencies met: `composer install`
+2. Clone JOUW fork van deze repository naar je computer (dus niet die van *hiddebraun-ma*!)
+3. Open de bestanden in je favoriete editor (Tip: probeer PHPStorm eens. Dat geeft je veel hulp bij code en OOP classes e.d.!)
+4. Ga in een terminal venster naar de nieuwe map.
+5. Installeer de dependencies met: `composer install`.
+
 
 ## Opdracht 
 
